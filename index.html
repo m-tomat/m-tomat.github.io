@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAT_PC // Y2K Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="matrix-bg"></div>
+    <div class="scanlines"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-brand">
+            <span class="glitch" data-text="MAT_PC">MAT_PC</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#projects" class="nav-link">PROJECTS</a>
+            <a href="#skills" class="nav-link">SKILLS</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="chrome-text">WELCOME TO THE FUTURE</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text">SOFTWARE DEVELOPER // PROJECT LEADER // DIGITAL ARCHITECT</span>
+                </h2>
+                <p class="hero-description">
+                    Crafting digital experiences with cutting-edge technology and Y2K aesthetics
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('projects')">
+                        VIEW PROJECTS
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('contact')">
+                        CONNECT
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="cube-container">
+                    <div class="cube">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="glitch" data-text="ABOUT.EXE">ABOUT.EXE</span>
+            </h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <span class="terminal-title">user_profile.exe</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="prompt">C:\SYSTEM></span> <span class="command">whoami</span></p>
+                            <p class="output">Multi-disciplinary developer with expertise in full-stack development, game design, and AI integration. Passionate about creating innovative solutions that bridge technical excellence with user-centric design.</p>
+                            <p><span class="prompt">C:\SYSTEM></span> <span class="command">get_experience</span></p>
+                            <p class="output">Project leadership • Cross-functional team coordination • Agile/Scrum methodologies • International student relations • Customer service excellence</p>
+                            <p><span class="prompt">C:\SYSTEM></span> <span class="cursor">_</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">PROJECTS</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">LANGUAGES</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">DEDICATION</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="chrome-text">DIGITAL_PORTFOLIO.EXE</span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="unreal">
+                    <div class="project-header">
+                        <h3>UNREAL ENGINE 5 // MULTIPLAYER GAME</h3>
+                        <span class="project-type">PROJECT LEADER</span>
+                    </div>
+                    <div class="project-content">
+                        <p>Led cross-functional student team in designing multiplayer game with procedurally generated environments. Coordinated project timeline and ensured delivery of gameplay mechanics and visual polish.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">UNREAL ENGINE 5</span>
+                            <span class="tech-tag">MULTIPLAYER</span>
+                            <span class="tech-tag">PROCEDURAL GEN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="ai">
+                    <div class="project-header">
+                        <h3>PYTHON AI ASSISTANT</h3>
+                        <span class="project-type">SOFTWARE DEVELOPER</span>
+                    </div>
+                    <div class="project-content">
+                        <p>Built Python tool for screen content analysis with AI integration. Interactive math problem solving with user-centric design and educational applications.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PYTHON</span>
+                            <span class="tech-tag">AI INTEGRATION</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="django">
+                    <div class="project-header">
+                        <h3>DJANGO PRODUCTIVITY APP</h3>
+                        <span class="project-type">FULL-STACK DEVELOPER</span>
+                    </div>
+                    <div class="project-content">
+                        <p>Created calendar and productivity platform with emphasis on usability and workflow efficiency. Full-stack development showcasing versatility in software design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">DJANGO</span>
+                            <span class="tech-tag">FULL-STACK</span>
+                            <span class="tech-tag">PRODUCTIVITY</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="database">
+                    <div class="project-header">
+                        <h3>STUDENT/FACULTY DATABASE</h3>
+                        <span class="project-type">JAVA DEVELOPER</span>
+                    </div>
+                    <div class="project-content">
+                        <p>Designed relational database system for student and faculty information with structured UI interactions for data management and reporting.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JAVA</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">DATABASE DESIGN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="glitch" data-text="SYSTEM_SPECS.DLL">SYSTEM_SPECS.DLL</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>PROJECT MANAGEMENT</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-name">Agile/Scrum</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Task Delegation</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Cross-team Communication</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>SOFTWARE DEVELOPMENT</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Django</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Unreal Engine 5</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 87%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>UI/UX DESIGN</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-name">Wireframing</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Prototyping</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 83%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">User Testing</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Accessibility</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>CREATIVE & COMMUNICATION</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-name">Graphic Design</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 86%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Social Media Strategy</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Intercultural Communication</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="chrome-text">ESTABLISH_CONNECTION.EXE</span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>EMAIL</h3>
+                        <p>your.email@domain.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <h3>LINKEDIN</h3>
+                        <p>linkedin.com/in/yourprofile</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🔗</div>
+                        <h3>GITHUB</h3>
+                        <p>github.com/m-tomat</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="form-container">
+                        <div class="form-group">
+                            <label for="name">NAME</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">MESSAGE</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 MAT_PC. All rights reserved. Built with Y2K aesthetic in mind.</p>
+                <div class="footer-links">
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#skills">SKILLS</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
