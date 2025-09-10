@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAT_PC // Y2K Portfolio</title>
+    <title>Mathews Tomat - Software Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="matrix-bg"></div>
-    <div class="scanlines"></div>
-    
     <!-- Navigation -->
     <nav class="nav-container">
         <div class="nav-brand">
-            <span class="glitch" data-text="MAT_PC">MAT_PC</span>
+            <span class="logo">Mathews Tomat</span>
         </div>
         <div class="nav-links">
-            <a href="#home" class="nav-link">HOME</a>
-            <a href="#about" class="nav-link">ABOUT</a>
-            <a href="#projects" class="nav-link">PROJECTS</a>
-            <a href="#skills" class="nav-link">SKILLS</a>
-            <a href="#contact" class="nav-link">CONTACT</a>
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </nav>
 
@@ -32,32 +34,47 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1 class="hero-title">
-                    <span class="chrome-text">WELCOME TO THE FUTURE</span>
+                    Mathews Tomat
                 </h1>
                 <h2 class="hero-subtitle">
-                    <span class="typing-text">SOFTWARE DEVELOPER // PROJECT LEADER // DIGITAL ARCHITECT</span>
+                    Software Developer & Project Leader
                 </h2>
                 <p class="hero-description">
-                    Crafting digital experiences with cutting-edge technology and Y2K aesthetics
+                    Passionate about creating innovative software solutions with expertise in full-stack development, 
+                    game design, and AI integration. Focused on delivering exceptional user experiences through 
+                    clean code and thoughtful design.
                 </p>
                 <div class="hero-buttons">
-                    <button class="btn-primary" onclick="scrollToSection('projects')">
-                        VIEW PROJECTS
+                    <button class="btn-primary" onclick="scrollToSection('experience')">
+                        View My Work
                     </button>
                     <button class="btn-secondary" onclick="scrollToSection('contact')">
-                        CONNECT
+                        Get In Touch
                     </button>
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="cube-container">
-                    <div class="cube">
-                        <div class="face front"></div>
-                        <div class="face back"></div>
-                        <div class="face right"></div>
-                        <div class="face left"></div>
-                        <div class="face top"></div>
-                        <div class="face bottom"></div>
+                <div class="code-block">
+                    <div class="code-header">
+                        <div class="window-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <span class="file-name">portfolio.py</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code><span class="keyword">class</span> <span class="class-name">Developer</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="param">self</span>):
+        <span class="param">self</span>.<span class="property">name</span> = <span class="string">"Mathews Tomat"</span>
+        <span class="param">self</span>.<span class="property">role</span> = <span class="string">"Software Developer"</span>
+        <span class="param">self</span>.<span class="property">skills</span> = [
+            <span class="string">"Python"</span>, <span class="string">"Java"</span>, <span class="string">"Django"</span>,
+            <span class="string">"Unreal Engine"</span>, <span class="string">"SQL"</span>
+        ]
+    
+    <span class="keyword">def</span> <span class="function">build_something_amazing</span>(<span class="param">self</span>):
+        <span class="keyword">return</span> <span class="string">"Innovation through code"</span></code></pre>
                     </div>
                 </div>
             </div>
@@ -67,111 +84,168 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">
-                <span class="glitch" data-text="ABOUT.EXE">ABOUT.EXE</span>
-            </h2>
-            <div class="about-grid">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
                 <div class="about-text">
-                    <div class="terminal-window">
-                        <div class="terminal-header">
-                            <div class="terminal-buttons">
-                                <span class="btn-close"></span>
-                                <span class="btn-minimize"></span>
-                                <span class="btn-maximize"></span>
-                            </div>
-                            <span class="terminal-title">user_profile.exe</span>
+                    <p>
+                        I'm a dedicated software developer with a passion for creating innovative solutions that bridge 
+                        technical excellence with user-centric design. My experience spans across multiple domains, 
+                        from game development to AI integration and full-stack web applications.
+                    </p>
+                    <p>
+                        With a strong foundation in project management and cross-functional team leadership, I excel 
+                        at coordinating complex projects and delivering high-quality results. My background includes 
+                        both technical development and international student relations, giving me a unique perspective 
+                        on communication and collaboration.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h4>Project Leadership</h4>
+                            <p>Led cross-functional teams in delivering complex software projects</p>
                         </div>
-                        <div class="terminal-body">
-                            <p><span class="prompt">C:\SYSTEM></span> <span class="command">whoami</span></p>
-                            <p class="output">Multi-disciplinary developer with expertise in full-stack development, game design, and AI integration. Passionate about creating innovative solutions that bridge technical excellence with user-centric design.</p>
-                            <p><span class="prompt">C:\SYSTEM></span> <span class="command">get_experience</span></p>
-                            <p class="output">Project leadership • Cross-functional team coordination • Agile/Scrum methodologies • International student relations • Customer service excellence</p>
-                            <p><span class="prompt">C:\SYSTEM></span> <span class="cursor">_</span></p>
+                        <div class="highlight-item">
+                            <h4>Full-Stack Development</h4>
+                            <p>Experience with both frontend and backend technologies</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>AI Integration</h4>
+                            <p>Built intelligent applications with practical educational applications</p>
                         </div>
                     </div>
                 </div>
                 <div class="about-stats">
-                    <div class="stat-card">
-                        <div class="stat-number">5+</div>
-                        <div class="stat-label">PROJECTS</div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Major Projects</span>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">4+</div>
-                        <div class="stat-label">LANGUAGES</div>
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Programming Languages</span>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-number">100%</div>
-                        <div class="stat-label">DEDICATION</div>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
         <div class="container">
-            <h2 class="section-title">
-                <span class="chrome-text">DIGITAL_PORTFOLIO.EXE</span>
-            </h2>
-            <div class="projects-grid">
-                <div class="project-card" data-project="unreal">
-                    <div class="project-header">
-                        <h3>UNREAL ENGINE 5 // MULTIPLAYER GAME</h3>
-                        <span class="project-type">PROJECT LEADER</span>
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Project Leader</h3>
+                        <span class="role-type">Game Development</span>
                     </div>
-                    <div class="project-content">
-                        <p>Led cross-functional student team in designing multiplayer game with procedurally generated environments. Coordinated project timeline and ensured delivery of gameplay mechanics and visual polish.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">UNREAL ENGINE 5</span>
-                            <span class="tech-tag">MULTIPLAYER</span>
-                            <span class="tech-tag">PROCEDURAL GEN</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card" data-project="ai">
-                    <div class="project-header">
-                        <h3>PYTHON AI ASSISTANT</h3>
-                        <span class="project-type">SOFTWARE DEVELOPER</span>
-                    </div>
-                    <div class="project-content">
-                        <p>Built Python tool for screen content analysis with AI integration. Interactive math problem solving with user-centric design and educational applications.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">PYTHON</span>
-                            <span class="tech-tag">AI INTEGRATION</span>
-                            <span class="tech-tag">UI/UX</span>
-                        </div>
+                    <h4>Unreal Engine 5 Multiplayer Game</h4>
+                    <p>
+                        Led a cross-functional student team in designing and developing a multiplayer game with 
+                        procedurally generated environments. Coordinated project timeline, assigned tasks, and 
+                        ensured delivery of both gameplay mechanics and visual polish.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Unreal Engine 5</span>
+                        <span class="tech-tag">Multiplayer Systems</span>
+                        <span class="tech-tag">Procedural Generation</span>
+                        <span class="tech-tag">Team Leadership</span>
                     </div>
                 </div>
 
-                <div class="project-card" data-project="django">
-                    <div class="project-header">
-                        <h3>DJANGO PRODUCTIVITY APP</h3>
-                        <span class="project-type">FULL-STACK DEVELOPER</span>
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Software Developer</h3>
+                        <span class="role-type">AI Development</span>
                     </div>
-                    <div class="project-content">
-                        <p>Created calendar and productivity platform with emphasis on usability and workflow efficiency. Full-stack development showcasing versatility in software design.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">DJANGO</span>
-                            <span class="tech-tag">FULL-STACK</span>
-                            <span class="tech-tag">PRODUCTIVITY</span>
-                        </div>
+                    <h4>Python AI Assistant</h4>
+                    <p>
+                        Built a Python tool that allows users to select a portion of their screen and query an AI 
+                        about the content. Designed intuitive interface and integrated AI functionality with 
+                        practical educational applications.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AI Integration</span>
+                        <span class="tech-tag">UI/UX Design</span>
+                        <span class="tech-tag">Computer Vision</span>
                     </div>
                 </div>
 
-                <div class="project-card" data-project="database">
-                    <div class="project-header">
-                        <h3>STUDENT/FACULTY DATABASE</h3>
-                        <span class="project-type">JAVA DEVELOPER</span>
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Full-Stack Developer</h3>
+                        <span class="role-type">Web Development</span>
                     </div>
-                    <div class="project-content">
-                        <p>Designed relational database system for student and faculty information with structured UI interactions for data management and reporting.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">JAVA</span>
-                            <span class="tech-tag">SQL</span>
-                            <span class="tech-tag">DATABASE DESIGN</span>
-                        </div>
+                    <h4>Django Productivity Platform</h4>
+                    <p>
+                        Created a comprehensive calendar and productivity platform using Django, with emphasis on 
+                        usability and workflow efficiency. Implemented features for task management and scheduling 
+                        to optimize user experience.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Frontend</span>
+                        <span class="tech-tag">Database Design</span>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Java Developer</h3>
+                        <span class="role-type">Database Systems</span>
+                    </div>
+                    <h4>Student/Faculty Database System</h4>
+                    <p>
+                        Designed and implemented a relational database system for storing student and faculty 
+                        information. Focused on structured UI interactions for data input, retrieval, and reporting.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Database Design</span>
+                        <span class="tech-tag">Data Management</span>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>International Ambassador</h3>
+                        <span class="role-type">University Role</span>
+                    </div>
+                    <h4>Student Relations & Event Management</h4>
+                    <p>
+                        Organized and led events to support international students, strengthening cultural engagement 
+                        and campus integration. Managed social media platforms and designed promotional materials 
+                        that increased event participation.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Event Management</span>
+                        <span class="tech-tag">Social Media</span>
+                        <span class="tech-tag">Graphic Design</span>
+                        <span class="tech-tag">Communication</span>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Front Desk Associate</h3>
+                        <span class="role-type">Hospitality</span>
+                    </div>
+                    <h4>Customer Service Excellence</h4>
+                    <p>
+                        Delivered exceptional customer service in a fast-paced hospitality environment, resolving 
+                        issues and managing reservations. Designed promotional materials and contributed to guest 
+                        engagement through clear communication.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Customer Service</span>
+                        <span class="tech-tag">Problem Solving</span>
+                        <span class="tech-tag">Communication</span>
+                        <span class="tech-tag">Design</span>
                     </div>
                 </div>
             </div>
@@ -181,125 +255,123 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">
-                <span class="glitch" data-text="SYSTEM_SPECS.DLL">SYSTEM_SPECS.DLL</span>
-            </h2>
+            <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>PROJECT MANAGEMENT</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
-                            <span class="skill-name">Agile/Scrum</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <span class="skill-name">Task Delegation</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <span class="skill-name">Cross-team Communication</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 92%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>SOFTWARE DEVELOPMENT</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
                             <span class="skill-name">Python</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 88%"></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
                             </div>
                         </div>
-                        <div class="skill-bar">
+                        <div class="skill-item">
                             <span class="skill-name">Java</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 85%"></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
                             </div>
                         </div>
-                        <div class="skill-bar">
-                            <span class="skill-name">Django</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 82%"></div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
                             </div>
                         </div>
-                        <div class="skill-bar">
-                            <span class="skill-name">Unreal Engine 5</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
+                        <div class="skill-item">
                             <span class="skill-name">SQL</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 87%"></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
                             </div>
                         </div>
-                        <div class="skill-bar">
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Unreal Engine 5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
                             <span class="skill-name">Git</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 90%"></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Adobe Creative Suite</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>UI/UX DESIGN</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
+                    <h3>Project Management</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Agile/Scrum</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Team Leadership</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Cross-team Communication</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Task Delegation</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Design & UX</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
                             <span class="skill-name">Wireframing</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 85%"></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
                             </div>
                         </div>
-                        <div class="skill-bar">
-                            <span class="skill-name">Prototyping</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 83%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
+                        <div class="skill-item">
                             <span class="skill-name">User Testing</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 88%"></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82%"></div>
                             </div>
                         </div>
-                        <div class="skill-bar">
+                        <div class="skill-item">
                             <span class="skill-name">Accessibility</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 80%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>CREATIVE & COMMUNICATION</h3>
-                    <div class="skill-bars">
-                        <div class="skill-bar">
-                            <span class="skill-name">Graphic Design</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 86%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <span class="skill-name">Social Media Strategy</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar">
-                            <span class="skill-name">Intercultural Communication</span>
-                            <div class="skill-progress">
-                                <div class="skill-fill" style="width: 95%"></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78%"></div>
                             </div>
                         </div>
                     </div>
@@ -311,42 +383,58 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">
-                <span class="chrome-text">ESTABLISH_CONNECTION.EXE</span>
-            </h2>
+            <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <div class="contact-info">
-                    <div class="contact-card">
-                        <div class="contact-icon">📧</div>
-                        <h3>EMAIL</h3>
-                        <p>your.email@domain.com</p>
-                    </div>
-                    <div class="contact-card">
-                        <div class="contact-icon">💼</div>
-                        <h3>LINKEDIN</h3>
-                        <p>linkedin.com/in/yourprofile</p>
-                    </div>
-                    <div class="contact-card">
-                        <div class="contact-icon">🔗</div>
-                        <h3>GITHUB</h3>
-                        <p>github.com/m-tomat</p>
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in new opportunities and collaborations. 
+                        Whether you have a project in mind or just want to chat about technology, 
+                        feel free to reach out.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:your.email@domain.com" class="contact-method">
+                            <span class="icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>your.email@domain.com</p>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="contact-method" target="_blank">
+                            <span class="icon">💼</span>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>Connect with me professionally</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/m-tomat" class="contact-method" target="_blank">
+                            <span class="icon">🔗</span>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>View my code repositories</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form class="form-container">
+                    <form class="form">
                         <div class="form-group">
-                            <label for="name">NAME</label>
+                            <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">EMAIL</label>
+                            <label for="email">Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">MESSAGE</label>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn-primary">SEND MESSAGE</button>
+                        <button type="submit" class="btn-primary">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -357,13 +445,13 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 MAT_PC. All rights reserved. Built with Y2K aesthetic in mind.</p>
+                <p>&copy; 2025 Mathews Tomat. All rights reserved.</p>
                 <div class="footer-links">
-                    <a href="#home">HOME</a>
-                    <a href="#about">ABOUT</a>
-                    <a href="#projects">PROJECTS</a>
-                    <a href="#skills">SKILLS</a>
-                    <a href="#contact">CONTACT</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         </div>
